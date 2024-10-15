@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade de Arte e Cultura</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ligando ao arquivo CSS -->
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#events">Eventos</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Bem-vindo à Comunidade de Arte e Cultura</h1>
+    </header>
+
+    <!-- Seção de Introdução -->
+    <section id="home">
+        <h2>Explore o Mundo da Arte e Cultura</h2>
+        <p>Descubra eventos culturais, exposições, e a arte de nossa comunidade.</p>
+    </section>
+
+    <!-- Seção "Sobre a Comunidade" -->
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma comunidade dedicada a promover a arte e a cultura locais, conectando artistas, criadores e amantes da cultura.</p>
+    </section>
+
+    <!-- Seção de Eventos -->
+    <section id="events">
+        <h2>Próximos Eventos</h2>
+        <ul>
+            <li>Exposição de Arte - 20 de Outubro</li>
+            <li>Festival de Música - 5 de Novembro</li>
+            <li>Conferência Cultural - 18 de Novembro</li>
+        </ul>
+    </section>
+
+    <!-- Seção de Galeria -->
+    <section id="gallery">
+        <h2>Galeria de Arte</h2>
+        <div class="gallery-grid">
+            <img src="arte1.jpg" alt="Arte 1">
+            <img src="arte2.jpg" alt="Arte 2">
+            <img src="arte3.jpg" alt="Arte 3">
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+        <h2>Fale Conosco</h2>
+        <form action="submit.php" method="POST">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Comunidade de Arte e Cultura. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
